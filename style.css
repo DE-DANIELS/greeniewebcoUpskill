@@ -1,5 +1,72 @@
-.demoForm {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.indexForm {
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  display: flex;
+  margin: 0px 250px;
+}
+
+.navitems ul {
+  display: flex;
+  gap: 40px;
+}
+
+.navitems ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.logo img {
+  max-width: 150px;
+  margin-right: 340px;
+}
+
+.navitems {
+  padding-top: 22px;
+}
+
+nav {
+  border-bottom: solid black 1px;
+}
+
+.mobilemenu {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .navitems {
+    display: none;
+  }
+
+  .content {
+    margin: 0 10px;
+  }
+
+  .mobilemenu {
+    display: block;
+  }
+
+  .logo img {
+    max-width: 150px;
+    margin-right: 130px;
+  }
+
+  button {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 18px;
+  }
+  #menu {
+    position: relative;
+    right: 150%;
+    list-style: none;
+    display: none;
+  }
 }
