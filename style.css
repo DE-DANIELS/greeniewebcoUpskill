@@ -10,7 +10,7 @@ body {
 
 .content {
   display: flex;
-  margin: 0px 250px;
+  justify-content: space-around;
 }
 
 .navitems ul {
@@ -33,13 +33,157 @@ body {
 }
 
 nav {
+  background-color: #fff;
   border-bottom: solid black 1px;
+  /* position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; */
 }
 
 .mobilemenu {
   display: none;
 }
 
+/* Image Compresion Section */
+.chima-section{
+  margin-bottom: 150px;
+}
+.chima-head h3{
+  color: #224229;
+  font-family: 'libre Baskerville', serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.chima-head p{
+  color: #828787;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.chima-icon{
+  background-image: url(./assets/potted-plant.webp);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 45px;
+}
+.chima-main{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 75px;
+}
+.chima-sub img{
+  max-width: 300px;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.chima-sub h4{
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.chima-sub p{
+  color: gray;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* The middle div container */
+.chima-sub-mid{
+  margin-top: 70px;
+  padding: 10px;
+}
+.chima-sub-mid img{
+  max-width: 80px;
+  margin-left: 20px;
+}
+.chima-sub-mid p{
+  color: gray;
+  font-size: 17px;
+  text-align: center;
+}
+.chima-b-end {
+  display: flex;
+  justify-content: center;
+}
+.chima-b-end img{
+  max-width: 80%;
+}
+/* The footer section  */
+.chima-footer{
+  background-attachment: fixed;
+  background-image: url(./assets/background.webp);
+  color: #212529;
+  min-height: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 150px 0;
+}
+.chima-footer h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+.chima-footer .chima-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.chima-footer .chima-input #email{
+  font-size: 13px;
+  width: 250px;
+  color: #fff;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  padding: 15px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid transparent;
+  outline: none;
+}
+.chima-footer .chima-input #subsbtn{
+  width: 150px;
+  color: #fff;
+  background-color: rgba(81, 166, 68, 0.5);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  padding: 14px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.chima-word{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chima-word p{
+  color: #999;
+  font-size: 15px;
+  text-align: center;
+}
+.chima-word img{
+  max-width: 50px;
+}
 @media screen and (max-width: 480px) {
   .navitems {
     display: none;
@@ -68,5 +212,12 @@ nav {
     right: 150%;
     list-style: none;
     display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .chima-main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
