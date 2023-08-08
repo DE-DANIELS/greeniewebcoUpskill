@@ -214,6 +214,41 @@ nav {
 
 @media screen and (max-width: 900px) {
 
+  .navitems {
+    display: none
+  }
+
+  .content {
+    margin: 0 10px;
+  }
+
+  .mobilemenu {
+    display: block;
+  }
+
+  .mobilemenu button {
+    width: 8rem;
+    height: 2.5rem;
+  }
+
+  .logo img {
+    max-width: 150px;
+    margin-right: 400px;
+    margin-left: 50px;
+  }
+
+  button {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 18px;
+  }
+  #menu {
+    position: relative;
+    right: 150%;
+    list-style: none;
+    display: none;
+  }
+
 .jsp-home-wrapper {
       display: block;
       justify-content: center;
@@ -228,6 +263,10 @@ nav {
   .jsp-home-wrapper img {
     margin-top: 2rem;
     max-width: 480px;
+  }
+
+  .signup {
+    border-radius: 0;
   }
 
   .jsp-aboutus-wrapper {
@@ -292,7 +331,7 @@ nav {
   .jsp-img-comp-wrapper p,
   .jsp-greenify p {
     font-size: 22px;
-    line-height: 40px;
+    line-height: 45px;
   }
 }
 
@@ -311,15 +350,29 @@ nav {
   }
 
   .logo img {
-    max-width: 150px;
-    margin-right: 130px;
+    max-width: 100px;
+    margin-right: 80px;
+    margin-left: 50px;
   }
 
-  button {
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 18px;
+  .hamburger {
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 0;
   }
+
+  .hamburger p {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+  }
+
+  .mobilemenu button {
+    width: 4rem;
+    height: 1.0rem;
+  }
+
   #menu {
     position: relative;
     right: 150%;
@@ -343,6 +396,10 @@ nav {
   .jsp-home-wrapper img {
     margin-top: 4rem;
     max-width: 300px;
+  }
+
+  .signup {
+    border-radius: 0;
   }
 
   .jsp-aboutus-wrapper {
