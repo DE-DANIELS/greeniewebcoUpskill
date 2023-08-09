@@ -51,7 +51,7 @@ nav {
   gap: 3%;
   align-items: center;
   justify-content: center;
-  padding-top: 13rem;
+  padding-top: 8rem;
   margin-bottom: 11rem;
   background-color: white;
 }
@@ -65,6 +65,7 @@ nav {
   font-size: 45px;
   color: #224229;
   padding-bottom: 20px;
+  font-weight: normal;
 }
 
 .jsp-home-wrapper p {
@@ -146,75 +147,6 @@ nav {
 .jsp-divider {
   width: 50%;
   border: 1px solid black;
-}
-
-.jsp-img-comp-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  padding-top: 50px;
-  margin-bottom: 10rem;
-}
-
-.jsp-co2 {
-  padding-bottom: 15%;
-}
-
-.jsp-co2 p {
-  padding: 12px 17px;
-  line-height: 20px;
-  font-weight: 200;
-  letter-spacing: 0.04em;
-  color: #828787;
-  font-size: 16px;
-}
-
-.greenie-5 {
-  max-width: 300px;
-  object-fit: contain;
-  border-radius: 10px;
-  margin-bottom: 2rem;
-}
-
-.sub {
-  font-size: 16px;
-  font-family: Poppins, sans-serif;
-  font-weight: 600;
-}
-
-.desc {
-  font-weight: 200;
-  letter-spacing: 0.04em;
-  color: #828787;
-  font-size: 16px;
-}
-
-.greenie-6 {
-  max-width: 80px;
-}
-
-.jsp-greenify {
-  display: block;
-  text-align: center;
-}
-
-.jsp-greenify h3 {
-  color: #224229;
-  font-family: "Libre Baskerville", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 34px;
-  margin-bottom: 2rem;
-}
-
-.jsp-greenify p {
-  line-height: 20px;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  color: #828787;
-  font-size: 15px;
 }
 
 .chima-section{
@@ -448,34 +380,10 @@ nav {
       margin-top: 100px;
   }
 
-  .jsp-greenify {
-    margin-top: 5rem;
-  }
-
-  .jsp-greenify img {
-    margin-top: 0.5rem;
-    max-width: 100px;
-  }
-
-  .jsp-img-comp-wrapper {
-    display: block;
-    padding-top: 15px;
-  }
-
-  .greenie-5 {
-    border-radius: 5px;
-    max-width: 450px;
-  }
-
-  .jsp-co2 {
-    padding-bottom: 5%;
-  }
 
   .jsp-home-wrapper p,
   .jsp-aboutus-wrapper p,
-  .jsp-why-wrapper p,
-  .jsp-img-comp-wrapper p,
-  .jsp-greenify p {
+  .jsp-why-wrapper p {
     font-size: 22px;
     line-height: 45px;
   }
@@ -582,46 +490,6 @@ nav {
       text-align: center;
       margin: 0 2rem;
       margin-top: 100px;
-  }
-
-  .jsp-greenify {
-    margin-top: 5rem;
-  }
-
-  .jsp-greenify img {
-    margin-top: 0.5rem;
-    max-width: 80px;
-  }
-
-  .jsp-img-comp-wrapper {
-    display: block;
-    padding-top: 15px;
-  }
-
-  .jsp-greenify h3 {
-    font-size: 20px;
-  }
-
-  .jsp-greenify p {
-    margin: 0 1.5rem;
-  }
-
-  .greenie-5 {
-    border-radius: 5px;
-    max-width: 300px;
-  }
-
-  .jsp-home-wrapper p,
-  .jsp-aboutus-wrapper p,
-  .jsp-why-wrapper p,
-  .jsp-img-comp-wrapper p {
-    font-size: 16px;
-    line-height: 34px;
-  }
-
-  .jsp-greenify p {
-    line-height: 25px;
-    font-size: 16px;
   }
 
 }
