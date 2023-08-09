@@ -57,7 +57,7 @@ nav {
 }
 
 .jsp-home img {
-    max-width: 460px;
+  max-width: 460px;
 }
 
 .jsp-home h1 {
@@ -90,7 +90,6 @@ nav {
   text-decoration: none;
   color: #224229;
 }
-
 
 .signup:hover a {
   color: white;
@@ -146,29 +145,30 @@ nav {
 
 .jsp-divider {
   width: 50%;
-  border: 1px solid black;
+  border: 1px solid #c7c8c9;
+  margin: 20px 0px;
 }
 
-.chima-section{
+.chima-section {
   margin-bottom: 150px;
 }
-.chima-head h3{
+.chima-head h3 {
   color: #224229;
-  font-family: 'libre Baskerville', serif;
+  font-family: "libre Baskerville", serif;
   font-size: 30px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
-.chima-head p{
+.chima-head p {
   color: #828787;
   font-size: 15px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 15px;
 }
-.chima-icon{
+.chima-icon {
   background-image: url(./assets/potted-plant.webp);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -176,39 +176,39 @@ nav {
   width: 100%;
   margin-bottom: 45px;
 }
-.chima-main{
+.chima-main {
   display: flex;
   justify-content: space-around;
   padding: 20px 75px;
 }
-.chima-sub img{
+.chima-sub img {
   max-width: 300px;
   height: auto;
   border-radius: 15px;
   margin-bottom: 20px;
 }
-.chima-sub h4{
+.chima-sub h4 {
   color: black;
   font-size: 16px;
   text-align: center;
   margin-bottom: 10px;
 }
-.chima-sub p{
+.chima-sub p {
   color: gray;
   font-size: 17px;
   text-align: center;
   margin-bottom: 20px;
 }
 /* The middle div container */
-.chima-sub-mid{
+.chima-sub-mid {
   margin-top: 70px;
   padding: 10px;
 }
-.chima-sub-mid img{
+.chima-sub-mid img {
   max-width: 80px;
   margin-left: 20px;
 }
-.chima-sub-mid p{
+.chima-sub-mid p {
   color: gray;
   font-size: 17px;
   text-align: center;
@@ -217,11 +217,11 @@ nav {
   display: flex;
   justify-content: center;
 }
-.chima-b-end img{
+.chima-b-end img {
   max-width: 80%;
 }
 /* The footer section  */
-.chima-footer{
+.chima-footer {
   background-attachment: fixed;
   background-image: url(./assets/background.webp);
   color: #212529;
@@ -232,7 +232,7 @@ nav {
   position: relative;
   padding: 150px 0;
 }
-.chima-footer h3{
+.chima-footer h3 {
   text-align: center;
   font-size: 20px;
   font-family: Poppins, sans-serif;
@@ -241,13 +241,13 @@ nav {
   text-transform: uppercase;
   margin-bottom: 70px;
 }
-.chima-footer .chima-input{
+.chima-footer .chima-input {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 70px;
 }
-.chima-footer .chima-input #email{
+.chima-footer .chima-input #email {
   font-size: 13px;
   width: 250px;
   color: #fff;
@@ -258,7 +258,7 @@ nav {
   border: 2px solid transparent;
   outline: none;
 }
-.chima-footer .chima-input #subsbtn{
+.chima-footer .chima-input #subsbtn {
   width: 150px;
   color: #fff;
   background-color: rgba(81, 166, 68, 0.5);
@@ -274,24 +274,23 @@ nav {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.chima-word{
+.chima-word {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.chima-word p{
+.chima-word p {
   color: #999;
   font-size: 15px;
   text-align: center;
 }
-.chima-word img{
+.chima-word img {
   max-width: 50px;
 }
 
 @media screen and (max-width: 900px) {
-
   .navitems {
-    display: none
+    display: none;
   }
 
   .content {
@@ -325,17 +324,17 @@ nav {
     display: none;
   }
 
-.jsp-home-wrapper {
-      display: block;
-      justify-content: center;
-      text-align: center;
-      margin: 0 4rem;
-      padding-top: 4rem;
+  .jsp-home-wrapper {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 4rem;
+    padding-top: 4rem;
   }
 
   .jsp-home-wrapper h1 {
-      font-weight: normal;
-      font-size: 50px;
+    font-weight: normal;
+    font-size: 50px;
   }
 
   .jsp-home-wrapper img {
@@ -348,16 +347,16 @@ nav {
   }
 
   .jsp-aboutus-wrapper {
-      display: block;
-      justify-content: center;
-      text-align: center;
-      margin: 0 4rem;
-      margin-top: 100px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 4rem;
+    margin-top: 100px;
   }
 
   .jsp-aboutus-wrapper h2,
   .jsp-why-wrapper h2 {
-      margin-bottom: 60px;
+    margin-bottom: 60px;
   }
 
   .jsp-divider {
@@ -366,20 +365,19 @@ nav {
 
   .jsp-aboutus-wrapper img,
   .jsp-why-wrapper img {
-      max-width: 500px;
-      margin: 0 3rem;
+    max-width: 500px;
+    margin: 0 3rem;
   }
 
   .jsp-why-wrapper {
-      display: flex;
-      flex-direction: column-reverse;
-      justify-content: center;
-      gap: 1.5rem;
-      text-align: center;
-      margin: 0 4rem;
-      margin-top: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: center;
+    margin: 0 4rem;
+    margin-top: 100px;
   }
-
 
   .jsp-home-wrapper p,
   .jsp-aboutus-wrapper p,
@@ -423,7 +421,7 @@ nav {
 
   .mobilemenu button {
     width: 4rem;
-    height: 1.0rem;
+    height: 1rem;
   }
 
   #menu {
@@ -434,16 +432,15 @@ nav {
   }
 
   .jsp-home-wrapper {
-      display: block;
-      justify-content: center;
-      text-align: center;
-      margin: 0 2rem;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 2rem;
   }
 
   .jsp-home-wrapper h1 {
-      font-weight: normal;
-      font-size: 26px;
-
+    font-weight: normal;
+    font-size: 26px;
   }
 
   .jsp-home-wrapper img {
@@ -456,20 +453,20 @@ nav {
   }
 
   .jsp-aboutus-wrapper {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      margin: 0 2rem;
-      margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 2rem;
+    margin-top: 100px;
   }
 
   .jsp-aboutus-wrapper h2,
   .jsp-why-wrapper h2 {
-      font-size: 30px;
-      margin-bottom: 35px;
+    font-size: 30px;
+    margin-bottom: 35px;
   }
 
   .jsp-divider {
@@ -478,23 +475,22 @@ nav {
 
   .jsp-aboutus-wrapper img,
   .jsp-why-wrapper img {
-      max-width: 320px;
-      margin: 0 1rem;
+    max-width: 320px;
+    margin: 0 1rem;
   }
 
   .jsp-why-wrapper {
-      display: flex;
-      flex-direction: column-reverse;
-      gap: 1.5rem;
-      justify-content: center;
-      text-align: center;
-      margin: 0 2rem;
-      margin-top: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    margin: 0 2rem;
+    margin-top: 100px;
   }
-
 }
 @media screen and (max-width: 991px) {
-  .chima-main{
+  .chima-main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
