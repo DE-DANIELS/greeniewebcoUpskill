@@ -496,3 +496,54 @@ nav {
     align-items: center;
   }
 }
+
+
+
+/* preciousDemoPage */
+
+.demoSection{
+  display: flex;
+  justify-content: center; 
+  /* align-items: center; */
+  padding-top: 80px;
+  font-family: "Libre Baskerville", serif;
+}
+
+
+.demoSectImg1{
+  max-width: 500px;
+}
+
+.demoFormContainer{
+  display: flex;
+  gap: 3%;
+}
+
+.demoSpan{
+  color: red;
+}
+
+.demoForm > label{
+  display: block;
+  color: black; 
+  font-size: 15px;
+  margin-bottom: 2%;
+  /* font-weight: 400; */
+}
+
+.demoForm >input{
+  padding: 10px;
+  border: 1px solid #828787;
+  border-radius: 5px;
+}
+
+input ::placeholder{
+  font-size: 20px;
+}
+/* 
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'] {
+    padding-left: 40px;
+} */
