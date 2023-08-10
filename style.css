@@ -504,7 +504,7 @@ nav {
 .demoSection{
   display: flex;
   justify-content: center; 
-  gap: 10%;
+  gap: 3%;
   /* align-items: center; */
   padding-top: 80px;
   font-family: "Libre Baskerville", serif;
@@ -533,9 +533,11 @@ nav {
 .demoForm > label{
   display: block;
   color: black; 
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 3%;
   margin-top: 4%;
+  font-family: "Libre Baskerville", serif;
+
   /* font-weight: 400; */
 }
 
@@ -543,38 +545,47 @@ nav {
   padding: 10px;
   border: 1px solid #828787;
   border-radius: 5px;
-}
+  font-family: "Libre Baskerville", serif;
 
+}
+/* 
 input ::placeholder{
   font-size: 20px;
-}
+} */
 
 .demoRole{
-  /* margin-left: 30%; */
+  /* margin-left: 30%;  */
 }
 
 select{
-  width: 265px;
-  font-size: 20px;
+  width: 225px;
+  font-size: 15px;
+  font-family: "Libre Baskerville", serif;
+
 }
 
 .demoSectionPara{
   margin: 20px 0;
   color: red;
+  font-family: "Libre Baskerville", serif;
+
 }
 
 .demoSectionBtn{
   background-color: rgb(51, 150, 51);
   border: 1px solid rgb(51, 150, 51);
   border-radius: 5px;
-  padding: 20px;
+  padding: 15px 0;
   width: 40%;
+  font-size: 15px;
+  font-family: "Libre Baskerville", serif;
+
 }
 input[type='text'],
 input[type='password'],
 input[type='email'],
 input[type='number'] {
-    font-size: 20px;
+    font-size: 15px;
 } 
 
 
@@ -606,5 +617,9 @@ input[type='number'] {
   .demoSectionBtn{
     margin-left: 5%;
     margin-bottom: 8%;
+  }
+
+  .demoForm >input, select{
+    width: 90%;
   }
 }
