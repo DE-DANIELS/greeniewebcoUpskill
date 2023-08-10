@@ -496,3 +496,115 @@ nav {
     align-items: center;
   }
 }
+
+
+
+/* preciousDemoPage */
+
+.demoSection{
+  display: flex;
+  justify-content: center; 
+  gap: 10%;
+  /* align-items: center; */
+  padding-top: 80px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.demoSection1 > h1{
+  font-size: 48px;
+  padding: 20px 0;
+  font-family: "Libre Baskerville", serif;
+}
+
+
+.demoSectImg1{
+  max-width: 350px;
+}
+
+.demoFormContainer{
+  display: flex;
+  gap: 5%;
+}
+
+.demoSpan{
+  color: red;
+}
+
+.demoForm > label{
+  display: block;
+  color: black; 
+  font-size: 20px;
+  margin-bottom: 3%;
+  margin-top: 4%;
+  /* font-weight: 400; */
+}
+
+.demoForm >input, select{
+  padding: 10px;
+  border: 1px solid #828787;
+  border-radius: 5px;
+}
+
+input ::placeholder{
+  font-size: 20px;
+}
+
+.demoRole{
+  /* margin-left: 30%; */
+}
+
+select{
+  width: 265px;
+  font-size: 20px;
+}
+
+.demoSectionPara{
+  margin: 20px 0;
+  color: red;
+}
+
+.demoSectionBtn{
+  background-color: rgb(51, 150, 51);
+  border: 1px solid rgb(51, 150, 51);
+  border-radius: 5px;
+  padding: 20px;
+  width: 40%;
+}
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'] {
+    font-size: 20px;
+} 
+
+
+
+@media screen and (max-width: 480px) {
+  .demoSection{
+    flex-direction: column;
+  }
+  
+  
+  .demoSection1 >h1{
+    font-size: 30px;
+    text-align: center;
+    padding-right: 30px;  
+  }
+  .demoSectImg1{
+    max-width: 300px; 
+    margin-left: 5%;
+  }
+
+  .demoFormContainer{
+    flex-direction: column;
+    padding-left: 5%;
+  }
+  .demoSectionPara{
+    padding-left: 5%;
+  }
+
+  .demoSectionBtn{
+    margin-left: 5%;
+    margin-bottom: 8%;
+  }
+}

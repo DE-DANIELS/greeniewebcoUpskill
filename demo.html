@@ -11,6 +11,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="demo.css">
     <!-- poppins font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -51,6 +52,66 @@
           </div>
         </div>
       </nav>
+
+      <section class="demoSection">
+        <div class="demoSection1">
+          <h1>Request a Demo</h1>
+          <img src="./assets/greenvillImg.png" alt="" class="demoSectImg1">
+        </div>
+
+        <div>
+          <form action="">
+            <div class="demoFormContainer">
+            <div class="demoForm">
+              <label for="firstname">First Name <span class="demoSpan">*</span></label> 
+              <input type="text" placeholder="Your first name"></div>
+              <div class="demoForm">
+              <label for="lastname">Last Name</label>
+              <input type="text" placeholder="Your last name">
+            </div>
+            </div>
+            <div class="demoFormContainer">
+              <div class="demoForm">
+                <label for="email">Work Email<span class="demoSpan">*</span></label>
+                <input type="email" name="email" id="" placeholder="example@company.com">
+              </div>
+              <div class="demoForm">
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" placeholder="(555) 555-5555" id="">
+              </div>
+            </div>
+
+            <div class="demoFormContainer">
+              <div class="demoForm">
+                <label for="country">Country</label>
+                <input type="text" name="email" id="" placeholder="Your country">
+              </div>
+              <div class="demoForm">
+                <label for="company">Company<span class="demoSpan">*</span></label>
+                <input type="text" name="company" placeholder="Your company name" id="">
+              </div>
+            </div>
+
+            <div class="demoFormContainer">
+              <div class="demoForm">
+                <label for="department">Department</label>
+                <select name="select" id="">
+                  <option value="Please Select one">Please Select one</option>
+                </select>
+              </div>
+              <div class="demoForm">
+                <label for="role" class="demoRole">Role</label>
+                <select name="select" id="" class="demoSelect2">
+                  <option value="Please Select one">Please Select one</option>
+                </select>
+              </div>
+            </div>
+          </form>
+          <p class="demoSectionPara">Fields marked with an asterisk (*) are required.</p>
+          <button class="demoSectionBtn">Sign Up</button>
+        </div>
+      </section>
+
     <script src="/app.js"></script>
   </body>
 </html>
