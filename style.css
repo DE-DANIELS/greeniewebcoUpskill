@@ -288,42 +288,99 @@ nav {
   max-width: 50px;
 }
 
+/* preciousDemoPage */
+
+.demoSection{
+  display: flex;
+  justify-content: center; 
+  gap: 3%;
+  padding-top: 80px;
+  font-family: "Libre Baskerville", serif;
+}
+.demoSection1 > h1{
+  font-size: 48px;
+  padding: 20px 0;
+  font-family: "Libre Baskerville", serif;
+}
+.demoSectImg1{
+  max-width: 350px;
+}
+.demoFormContainer{
+  display: flex;
+  gap: 5%;
+}
+.demoSpan{
+  color: red;
+}
+.demoForm > label{
+  display: block;
+  color: black; 
+  font-size: 17px;
+  margin-bottom: 3%;
+  margin-top: 4%;
+  font-family: "Libre Baskerville", serif;
+}
+.demoForm >input, select{
+  padding: 10px;
+  border: 1px solid #828787;
+  border-radius: 5px;
+  font-family: "Libre Baskerville", serif;
+}
+select{
+  width: 225px;
+  font-size: 15px;
+  font-family: "Libre Baskerville", serif;
+}
+.demoSectionPara{
+  margin: 20px 0;
+  color: red;
+  font-family: "Libre Baskerville", serif;
+}
+
+.demoSectionBtn{
+  background-color: rgb(51, 150, 51);
+  border: 1px solid rgb(51, 150, 51);
+  border-radius: 5px;
+  padding: 15px 0;
+  width: 40%;
+  font-size: 15px;
+  font-family: "Libre Baskerville", serif;
+}
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'] {
+  font-size: 15px;
+} 
 @media screen and (max-width: 900px) {
   .navitems {
     display: none;
   }
-
   .content {
     margin: 0 10px;
   }
-
   .mobilemenu {
     display: block;
   }
-
   .mobilemenu button {
     width: 8rem;
     height: 2.5rem;
   }
-
   .logo img {
     max-width: 150px;
     margin-right: 170px;
   }
-
   button {
     padding: 5px;
     border-radius: 5px;
     margin-top: 18px;
   }
-
   #menu {
     position: relative;
     right: 150%;
     list-style: none;
     display: none;
   }
-
   .jsp-home-wrapper {
     display: block;
     justify-content: center;
@@ -331,21 +388,17 @@ nav {
     margin: 0 4rem;
     padding-top: 4rem;
   }
-
   .jsp-home-wrapper h1 {
     font-weight: normal;
     font-size: 50px;
   }
-
   .jsp-home-wrapper img {
     margin-top: 2rem;
     max-width: 480px;
   }
-
   .signup {
     border-radius: 0;
   }
-
   .jsp-aboutus-wrapper {
     display: block;
     justify-content: center;
@@ -353,22 +406,18 @@ nav {
     margin: 0 4rem;
     margin-top: 100px;
   }
-
   .jsp-aboutus-wrapper h2,
   .jsp-why-wrapper h2 {
     margin-bottom: 60px;
   }
-
   .jsp-divider {
     width: 100%;
   }
-
   .jsp-aboutus-wrapper img,
   .jsp-why-wrapper img {
     max-width: 500px;
     margin: 0 3rem;
   }
-
   .jsp-why-wrapper {
     display: flex;
     flex-direction: column-reverse;
@@ -378,7 +427,6 @@ nav {
     margin: 0 4rem;
     margin-top: 100px;
   }
-
   .jsp-home-wrapper p,
   .jsp-aboutus-wrapper p,
   .jsp-why-wrapper p {
@@ -391,67 +439,55 @@ nav {
   .navitems {
     display: none;
   }
-
   .content {
     margin: 0 10px;
   }
-
   .mobilemenu {
     display: block;
   }
-
   .logo img {
     max-width: 90px;
     margin-right: 30px;
     margin-left: 20px;
   }
-
   .hamburger {
     border-radius: 2px;
     margin-top: 15px;
     padding: 0;
   }
-
   .hamburger p {
     font-size: 11px;
     display: flex;
     justify-content: center;
     padding-bottom: 2px;
   }
-
   .mobilemenu button {
     width: 4rem;
     height: 1rem;
   }
-
   #menu {
     position: relative;
     right: 150%;
     list-style: none;
     display: none;
   }
-
   .jsp-home-wrapper {
     display: block;
     justify-content: center;
     text-align: center;
     margin: 0 2rem;
   }
-
   .jsp-home-wrapper h1 {
     font-weight: normal;
     font-size: 26px;
   }
-
   .jsp-home-wrapper img {
     margin-top: 4rem;
     max-width: 300px;
   }
-
   .signup {
     border-radius: 0;
   }
-
   .jsp-aboutus-wrapper {
     display: flex;
     flex-direction: column;
@@ -462,23 +498,19 @@ nav {
     margin: 0 2rem;
     margin-top: 100px;
   }
-
   .jsp-aboutus-wrapper h2,
   .jsp-why-wrapper h2 {
     font-size: 30px;
     margin-bottom: 35px;
   }
-
   .jsp-divider {
     width: 100%;
   }
-
   .jsp-aboutus-wrapper img,
   .jsp-why-wrapper img {
     max-width: 320px;
     margin: 0 1rem;
   }
-
   .jsp-why-wrapper {
     display: flex;
     flex-direction: column-reverse;
@@ -488,114 +520,48 @@ nav {
     margin: 0 2rem;
     margin-top: 100px;
   }
-}
-@media screen and (max-width: 991px) {
-  .chima-main {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .chima-head h3 {
+    font-size: 18.5px;
   }
-}
+  .chima-head p {
+    font-size: 11px;
+  }
+  .chima-head{
+    padding: 0 110px;
+  }
+  .chima-sub img {
+    max-width: 270px;
+    border-radius: 5px;
+  }
+  .chima-sub h4 {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .chima-sub p {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+  .chima-sub-mid {
+    margin-top: 5px;
+    padding: 10px 150px;
+  }
+  .chima-sub-mid img {
+    max-width: 70px;
+    margin-left: 10px;
+  }
+  .chima-sub-mid p {
+    font-size: 13px;
+  }
+  .chima-b-end {
+    display: flex;
+    justify-content: center;
+  }
 
+  /* Precious */
 
-
-/* preciousDemoPage */
-
-.demoSection{
-  display: flex;
-  justify-content: center; 
-  gap: 3%;
-  /* align-items: center; */
-  padding-top: 80px;
-  font-family: "Libre Baskerville", serif;
-}
-
-.demoSection1 > h1{
-  font-size: 48px;
-  padding: 20px 0;
-  font-family: "Libre Baskerville", serif;
-}
-
-
-.demoSectImg1{
-  max-width: 350px;
-}
-
-.demoFormContainer{
-  display: flex;
-  gap: 5%;
-}
-
-.demoSpan{
-  color: red;
-}
-
-.demoForm > label{
-  display: block;
-  color: black; 
-  font-size: 17px;
-  margin-bottom: 3%;
-  margin-top: 4%;
-  font-family: "Libre Baskerville", serif;
-
-  /* font-weight: 400; */
-}
-
-.demoForm >input, select{
-  padding: 10px;
-  border: 1px solid #828787;
-  border-radius: 5px;
-  font-family: "Libre Baskerville", serif;
-
-}
-/* 
-input ::placeholder{
-  font-size: 20px;
-} */
-
-.demoRole{
-  /* margin-left: 30%;  */
-}
-
-select{
-  width: 225px;
-  font-size: 15px;
-  font-family: "Libre Baskerville", serif;
-
-}
-
-.demoSectionPara{
-  margin: 20px 0;
-  color: red;
-  font-family: "Libre Baskerville", serif;
-
-}
-
-.demoSectionBtn{
-  background-color: rgb(51, 150, 51);
-  border: 1px solid rgb(51, 150, 51);
-  border-radius: 5px;
-  padding: 15px 0;
-  width: 40%;
-  font-size: 15px;
-  font-family: "Libre Baskerville", serif;
-
-}
-input[type='text'],
-input[type='password'],
-input[type='email'],
-input[type='number'] {
-    font-size: 15px;
-} 
-
-
-
-@media screen and (max-width: 480px) {
   .demoSection{
     flex-direction: column;
   }
-  
-  
   .demoSection1 >h1{
     font-size: 30px;
     text-align: center;
@@ -605,7 +571,6 @@ input[type='number'] {
     max-width: 300px; 
     margin-left: 5%;
   }
-
   .demoFormContainer{
     flex-direction: column;
     padding-left: 5%;
@@ -613,13 +578,57 @@ input[type='number'] {
   .demoSectionPara{
     padding-left: 5%;
   }
-
   .demoSectionBtn{
     margin-left: 5%;
     margin-bottom: 8%;
   }
-
   .demoForm >input, select{
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .chima-section{
+    margin-bottom: 50px;
+  }
+  .chima-b-end img {
+    max-width: 60%;
+  }
+  .chima-footer {
+    padding: 30px 0 490px;
+  }
+  .chima-footer h3 {
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+  .chima-footer .chima-input {
+    margin-bottom: 30px;
+  }
+  .chima-footer .chima-input #email {
+    font-size: 8px;
+    width: 120px;
+    padding: 6.5px 8.5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .chima-footer .chima-input #subsbtn {
+    width: 75px;
+    font-size: 7px;
+    padding: 7px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .chima-word p {
+    font-size: 7px;
+  }
+  .chima-word img {
+    max-width: 18px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .chima-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
